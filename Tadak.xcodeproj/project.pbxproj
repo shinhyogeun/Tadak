@@ -14,6 +14,7 @@
 		938C81B325B1D19000F69EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C81B225B1D19000F69EDD /* Assets.xcassets */; };
 		938C81B625B1D19100F69EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C81B425B1D19100F69EDD /* LaunchScreen.storyboard */; };
 		938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81C625B1DE2B00F69EDD /* RoundButton.swift */; };
+		9395014825B1FF9500ACDAE8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395014725B1FF9500ACDAE8 /* Login.swift */; };
 		93EB122325B1F0CE00C49374 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121C25B1F0CD00C49374 /* ResultViewController.swift */; };
 		93EB122425B1F0CE00C49374 /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB122025B1F0CD00C49374 /* NicknameViewController.swift */; };
 		93EB122525B1F0CE00C49374 /* MainViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121F25B1F0CD00C49374 /* MainViewController copy.swift */; };
@@ -42,6 +43,7 @@
 		938C81B525B1D19100F69EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938C81B725B1D19100F69EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		938C81C625B1DE2B00F69EDD /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		9395014725B1FF9500ACDAE8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93EB121A25B1F0CD00C49374 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		93EB121B25B1F0CD00C49374 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		93EB121C25B1F0CD00C49374 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		938C81A825B1D18F00F69EDD /* Tadak */ = {
 			isa = PBXGroup;
 			children = (
+				9395014425B1FCB700ACDAE8 /* model */,
 				93EB122E25B1F10500C49374 /* fonts */,
 				93EB122D25B1F0DF00C49374 /* ViewController */,
 				938C81AF25B1D18F00F69EDD /* Main.storyboard */,
@@ -103,6 +106,14 @@
 				9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */,
 			);
 			path = Tadak;
+			sourceTree = "<group>";
+		};
+		9395014425B1FCB700ACDAE8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9395014725B1FF9500ACDAE8 /* Login.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		93EB122D25B1F0DF00C49374 /* ViewController */ = {
@@ -270,6 +281,7 @@
 			files = (
 				93EB122825B1F0CE00C49374 /* GameViewController.swift in Sources */,
 				93EB122325B1F0CE00C49374 /* ResultViewController.swift in Sources */,
+				9395014825B1FF9500ACDAE8 /* Login.swift in Sources */,
 				938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */,
 				938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */,
 				93EB122A25B1F0CE00C49374 /* PhoneCheckViewController.swift in Sources */,
@@ -430,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2C96RNDN63;
 				INFOPLIST_FILE = Tadak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2C96RNDN63;
 				INFOPLIST_FILE = Tadak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

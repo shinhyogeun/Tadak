@@ -6,12 +6,19 @@
 //
 
 import UIKit
+import Firebase
 
 class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //로그인이 이미 되어있는 경우라면 홈페이지로 이동한다.
+        if Login.isAlreadyIn() {
+            let vcName = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController")
+            vcName?.modalPresentationStyle = .fullScreen
+            vcName?.modalTransitionStyle = .crossDissolve
+            self.present(vcName!, animated: true, completion: nil)
+        }
     }
 
     @IBAction func Button_Start(_ sender: UIButton) {

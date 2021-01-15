@@ -21,5 +21,11 @@ class SelectViewController: UIViewController {
         self.present(vcName!, animated: true, completion: nil)
     }
     
+    @IBAction func Button_back(_ sender: UIButton) {
+        let vcName = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController")
+        vcName?.modalPresentationStyle = .fullScreen
+        vcName?.modalTransitionStyle = .crossDissolve
+        self.present(vcName!, animated: true, completion: nil)
+    }
 }
 

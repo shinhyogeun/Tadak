@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class SettingViewController: UIViewController {
 
     @IBOutlet weak var UITextField_inputPhoneNumber: UITextField!
     override func viewDidLoad() {

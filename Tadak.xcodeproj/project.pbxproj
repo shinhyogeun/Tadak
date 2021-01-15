@@ -14,15 +14,19 @@
 		938C81B325B1D19000F69EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C81B225B1D19000F69EDD /* Assets.xcassets */; };
 		938C81B625B1D19100F69EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C81B425B1D19100F69EDD /* LaunchScreen.storyboard */; };
 		938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81C625B1DE2B00F69EDD /* RoundButton.swift */; };
-		938C81D125B1DE6200F69EDD /* PhoneCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CB25B1DE6200F69EDD /* PhoneCheckViewController.swift */; };
-		938C81D225B1DE6200F69EDD /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81D025B1DE6200F69EDD /* SelectViewController.swift */; };
-		938C81D325B1DE6200F69EDD /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CE25B1DE6200F69EDD /* NicknameViewController.swift */; };
-		938C81D425B1DE6200F69EDD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CA25B1DE6200F69EDD /* ResultViewController.swift */; };
-		938C81D525B1DE6200F69EDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CC25B1DE6200F69EDD /* GameViewController.swift */; };
-		938C81D625B1DE6200F69EDD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CF25B1DE6200F69EDD /* MainViewController.swift */; };
-		938C81D725B1DE6200F69EDD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CD25B1DE6200F69EDD /* StartViewController.swift */; };
-		938C81D825B1DE6200F69EDD /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81C925B1DE6200F69EDD /* ScoreViewController.swift */; };
-		938C81DE25B1E01D00F69EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81DD25B1E01C00F69EDD /* ViewController.swift */; };
+		93EB122325B1F0CE00C49374 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121C25B1F0CD00C49374 /* ResultViewController.swift */; };
+		93EB122425B1F0CE00C49374 /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB122025B1F0CD00C49374 /* NicknameViewController.swift */; };
+		93EB122525B1F0CE00C49374 /* MainViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121F25B1F0CD00C49374 /* MainViewController copy.swift */; };
+		93EB122625B1F0CE00C49374 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121D25B1F0CD00C49374 /* SelectViewController.swift */; };
+		93EB122725B1F0CE00C49374 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121B25B1F0CD00C49374 /* SettingViewController.swift */; };
+		93EB122825B1F0CE00C49374 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB122125B1F0CE00C49374 /* GameViewController.swift */; };
+		93EB122925B1F0CE00C49374 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121A25B1F0CD00C49374 /* StartViewController.swift */; };
+		93EB122A25B1F0CE00C49374 /* PhoneCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB122225B1F0CE00C49374 /* PhoneCheckViewController.swift */; };
+		93EB122B25B1F0CE00C49374 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121E25B1F0CD00C49374 /* ScoreViewController.swift */; };
+		93EB123525B1F34000C49374 /* NanumSquareRoundB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93EB123425B1F34000C49374 /* NanumSquareRoundB.ttf */; };
+		93EB123A25B1F34F00C49374 /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93EB123725B1F34F00C49374 /* NanumSquareRoundEB.ttf */; };
+		93EB123B25B1F34F00C49374 /* NanumSquareRoundL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93EB123825B1F34F00C49374 /* NanumSquareRoundL.ttf */; };
+		93EB123C25B1F34F00C49374 /* NanumSquareRoundR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93EB123925B1F34F00C49374 /* NanumSquareRoundR.ttf */; };
 		F077B6ECA26053A05894753C /* libPods-Tadak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B9B7D6E6DE01B13ED9CB4 /* libPods-Tadak.a */; };
 /* End PBXBuildFile section */
 
@@ -38,15 +42,19 @@
 		938C81B525B1D19100F69EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938C81B725B1D19100F69EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		938C81C625B1DE2B00F69EDD /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		938C81C925B1DE6200F69EDD /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		938C81CA25B1DE6200F69EDD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		938C81CB25B1DE6200F69EDD /* PhoneCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCheckViewController.swift; sourceTree = "<group>"; };
-		938C81CC25B1DE6200F69EDD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		938C81CD25B1DE6200F69EDD /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		938C81CE25B1DE6200F69EDD /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
-		938C81CF25B1DE6200F69EDD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		938C81D025B1DE6200F69EDD /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
-		938C81DD25B1E01C00F69EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93EB121A25B1F0CD00C49374 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		93EB121B25B1F0CD00C49374 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		93EB121C25B1F0CD00C49374 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		93EB121D25B1F0CD00C49374 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		93EB121E25B1F0CD00C49374 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		93EB121F25B1F0CD00C49374 /* MainViewController copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController copy.swift"; sourceTree = "<group>"; };
+		93EB122025B1F0CD00C49374 /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
+		93EB122125B1F0CE00C49374 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		93EB122225B1F0CE00C49374 /* PhoneCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCheckViewController.swift; sourceTree = "<group>"; };
+		93EB123425B1F34000C49374 /* NanumSquareRoundB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundB.ttf; sourceTree = "<group>"; };
+		93EB123725B1F34F00C49374 /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundEB.ttf; sourceTree = "<group>"; };
+		93EB123825B1F34F00C49374 /* NanumSquareRoundL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundL.ttf; sourceTree = "<group>"; };
+		93EB123925B1F34F00C49374 /* NanumSquareRoundR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundR.ttf; sourceTree = "<group>"; };
 		D77B9B7D6E6DE01B13ED9CB4 /* libPods-Tadak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tadak.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,25 +91,45 @@
 		938C81A825B1D18F00F69EDD /* Tadak */ = {
 			isa = PBXGroup;
 			children = (
+				93EB122E25B1F10500C49374 /* fonts */,
+				93EB122D25B1F0DF00C49374 /* ViewController */,
 				938C81AF25B1D18F00F69EDD /* Main.storyboard */,
-				938C81DD25B1E01C00F69EDD /* ViewController.swift */,
 				938C81A925B1D18F00F69EDD /* AppDelegate.swift */,
 				938C81C625B1DE2B00F69EDD /* RoundButton.swift */,
 				938C81AB25B1D18F00F69EDD /* SceneDelegate.swift */,
-				938C81CC25B1DE6200F69EDD /* GameViewController.swift */,
-				938C81CF25B1DE6200F69EDD /* MainViewController.swift */,
-				938C81CE25B1DE6200F69EDD /* NicknameViewController.swift */,
-				938C81CB25B1DE6200F69EDD /* PhoneCheckViewController.swift */,
-				938C81CA25B1DE6200F69EDD /* ResultViewController.swift */,
-				938C81C925B1DE6200F69EDD /* ScoreViewController.swift */,
-				938C81D025B1DE6200F69EDD /* SelectViewController.swift */,
-				938C81CD25B1DE6200F69EDD /* StartViewController.swift */,
 				938C81B225B1D19000F69EDD /* Assets.xcassets */,
 				938C81B425B1D19100F69EDD /* LaunchScreen.storyboard */,
 				938C81B725B1D19100F69EDD /* Info.plist */,
 				9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */,
 			);
 			path = Tadak;
+			sourceTree = "<group>";
+		};
+		93EB122D25B1F0DF00C49374 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93EB122125B1F0CE00C49374 /* GameViewController.swift */,
+				93EB121F25B1F0CD00C49374 /* MainViewController copy.swift */,
+				93EB122025B1F0CD00C49374 /* NicknameViewController.swift */,
+				93EB122225B1F0CE00C49374 /* PhoneCheckViewController.swift */,
+				93EB121C25B1F0CD00C49374 /* ResultViewController.swift */,
+				93EB121E25B1F0CD00C49374 /* ScoreViewController.swift */,
+				93EB121D25B1F0CD00C49374 /* SelectViewController.swift */,
+				93EB121B25B1F0CD00C49374 /* SettingViewController.swift */,
+				93EB121A25B1F0CD00C49374 /* StartViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		93EB122E25B1F10500C49374 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				93EB123725B1F34F00C49374 /* NanumSquareRoundEB.ttf */,
+				93EB123825B1F34F00C49374 /* NanumSquareRoundL.ttf */,
+				93EB123925B1F34F00C49374 /* NanumSquareRoundR.ttf */,
+				93EB123425B1F34000C49374 /* NanumSquareRoundB.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		DBF058802086A7EE9BE76B85 /* Frameworks */ = {
@@ -180,10 +208,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EB123B25B1F34F00C49374 /* NanumSquareRoundL.ttf in Resources */,
 				938C81B625B1D19100F69EDD /* LaunchScreen.storyboard in Resources */,
+				93EB123A25B1F34F00C49374 /* NanumSquareRoundEB.ttf in Resources */,
+				93EB123C25B1F34F00C49374 /* NanumSquareRoundR.ttf in Resources */,
 				9347DE1E25B1E20C004F5B93 /* GoogleService-Info.plist in Resources */,
 				938C81B325B1D19000F69EDD /* Assets.xcassets in Resources */,
 				938C81B125B1D18F00F69EDD /* Main.storyboard in Resources */,
+				93EB123525B1F34000C49374 /* NanumSquareRoundB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,18 +268,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EB122825B1F0CE00C49374 /* GameViewController.swift in Sources */,
+				93EB122325B1F0CE00C49374 /* ResultViewController.swift in Sources */,
 				938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */,
-				938C81D125B1DE6200F69EDD /* PhoneCheckViewController.swift in Sources */,
-				938C81D425B1DE6200F69EDD /* ResultViewController.swift in Sources */,
-				938C81D525B1DE6200F69EDD /* GameViewController.swift in Sources */,
-				938C81D725B1DE6200F69EDD /* StartViewController.swift in Sources */,
 				938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */,
-				938C81DE25B1E01D00F69EDD /* ViewController.swift in Sources */,
-				938C81D225B1DE6200F69EDD /* SelectViewController.swift in Sources */,
-				938C81D325B1DE6200F69EDD /* NicknameViewController.swift in Sources */,
+				93EB122A25B1F0CE00C49374 /* PhoneCheckViewController.swift in Sources */,
+				93EB122B25B1F0CE00C49374 /* ScoreViewController.swift in Sources */,
+				93EB122925B1F0CE00C49374 /* StartViewController.swift in Sources */,
+				93EB122625B1F0CE00C49374 /* SelectViewController.swift in Sources */,
+				93EB122725B1F0CE00C49374 /* SettingViewController.swift in Sources */,
+				93EB122525B1F0CE00C49374 /* MainViewController copy.swift in Sources */,
+				93EB122425B1F0CE00C49374 /* NicknameViewController.swift in Sources */,
 				938C81AC25B1D18F00F69EDD /* SceneDelegate.swift in Sources */,
-				938C81D625B1DE6200F69EDD /* MainViewController.swift in Sources */,
-				938C81D825B1DE6200F69EDD /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

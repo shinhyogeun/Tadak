@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9347DE1E25B1E20C004F5B93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */; };
+		938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81A925B1D18F00F69EDD /* AppDelegate.swift */; };
+		938C81AC25B1D18F00F69EDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81AB25B1D18F00F69EDD /* SceneDelegate.swift */; };
+		938C81B125B1D18F00F69EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C81AF25B1D18F00F69EDD /* Main.storyboard */; };
+		938C81B325B1D19000F69EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938C81B225B1D19000F69EDD /* Assets.xcassets */; };
+		938C81B625B1D19100F69EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938C81B425B1D19100F69EDD /* LaunchScreen.storyboard */; };
+		938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81C625B1DE2B00F69EDD /* RoundButton.swift */; };
+		938C81D125B1DE6200F69EDD /* PhoneCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CB25B1DE6200F69EDD /* PhoneCheckViewController.swift */; };
+		938C81D225B1DE6200F69EDD /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81D025B1DE6200F69EDD /* SelectViewController.swift */; };
+		938C81D325B1DE6200F69EDD /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CE25B1DE6200F69EDD /* NicknameViewController.swift */; };
+		938C81D425B1DE6200F69EDD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CA25B1DE6200F69EDD /* ResultViewController.swift */; };
+		938C81D525B1DE6200F69EDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CC25B1DE6200F69EDD /* GameViewController.swift */; };
+		938C81D625B1DE6200F69EDD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CF25B1DE6200F69EDD /* MainViewController.swift */; };
+		938C81D725B1DE6200F69EDD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81CD25B1DE6200F69EDD /* StartViewController.swift */; };
+		938C81D825B1DE6200F69EDD /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81C925B1DE6200F69EDD /* ScoreViewController.swift */; };
+		938C81DE25B1E01D00F69EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81DD25B1E01C00F69EDD /* ViewController.swift */; };
+		F077B6ECA26053A05894753C /* libPods-Tadak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B9B7D6E6DE01B13ED9CB4 /* libPods-Tadak.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49965C25A6D88C5A49B1D35F /* Pods-Tadak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.release.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.release.xcconfig"; sourceTree = "<group>"; };
+		570483EB47856E65EE000BAE /* Pods-Tadak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.debug.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.debug.xcconfig"; sourceTree = "<group>"; };
+		9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		938C81A625B1D18F00F69EDD /* Tadak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tadak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C81A925B1D18F00F69EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		938C81AB25B1D18F00F69EDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		938C81B025B1D18F00F69EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		938C81B225B1D19000F69EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		938C81B525B1D19100F69EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		938C81B725B1D19100F69EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938C81C625B1DE2B00F69EDD /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		938C81C925B1DE6200F69EDD /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		938C81CA25B1DE6200F69EDD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		938C81CB25B1DE6200F69EDD /* PhoneCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCheckViewController.swift; sourceTree = "<group>"; };
+		938C81CC25B1DE6200F69EDD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		938C81CD25B1DE6200F69EDD /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		938C81CE25B1DE6200F69EDD /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
+		938C81CF25B1DE6200F69EDD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		938C81D025B1DE6200F69EDD /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		938C81DD25B1E01C00F69EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D77B9B7D6E6DE01B13ED9CB4 /* libPods-Tadak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tadak.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		938C81A325B1D18F00F69EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F077B6ECA26053A05894753C /* libPods-Tadak.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		938C819D25B1D18F00F69EDD = {
+			isa = PBXGroup;
+			children = (
+				938C81A825B1D18F00F69EDD /* Tadak */,
+				938C81A725B1D18F00F69EDD /* Products */,
+				E9D55FF8CC9638E79A525257 /* Pods */,
+				DBF058802086A7EE9BE76B85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		938C81A725B1D18F00F69EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938C81A625B1D18F00F69EDD /* Tadak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		938C81A825B1D18F00F69EDD /* Tadak */ = {
+			isa = PBXGroup;
+			children = (
+				938C81AF25B1D18F00F69EDD /* Main.storyboard */,
+				938C81DD25B1E01C00F69EDD /* ViewController.swift */,
+				938C81A925B1D18F00F69EDD /* AppDelegate.swift */,
+				938C81C625B1DE2B00F69EDD /* RoundButton.swift */,
+				938C81AB25B1D18F00F69EDD /* SceneDelegate.swift */,
+				938C81CC25B1DE6200F69EDD /* GameViewController.swift */,
+				938C81CF25B1DE6200F69EDD /* MainViewController.swift */,
+				938C81CE25B1DE6200F69EDD /* NicknameViewController.swift */,
+				938C81CB25B1DE6200F69EDD /* PhoneCheckViewController.swift */,
+				938C81CA25B1DE6200F69EDD /* ResultViewController.swift */,
+				938C81C925B1DE6200F69EDD /* ScoreViewController.swift */,
+				938C81D025B1DE6200F69EDD /* SelectViewController.swift */,
+				938C81CD25B1DE6200F69EDD /* StartViewController.swift */,
+				938C81B225B1D19000F69EDD /* Assets.xcassets */,
+				938C81B425B1D19100F69EDD /* LaunchScreen.storyboard */,
+				938C81B725B1D19100F69EDD /* Info.plist */,
+				9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */,
+			);
+			path = Tadak;
+			sourceTree = "<group>";
+		};
+		DBF058802086A7EE9BE76B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77B9B7D6E6DE01B13ED9CB4 /* libPods-Tadak.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D55FF8CC9638E79A525257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				570483EB47856E65EE000BAE /* Pods-Tadak.debug.xcconfig */,
+				49965C25A6D88C5A49B1D35F /* Pods-Tadak.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		938C81A525B1D18F00F69EDD /* Tadak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 938C81BA25B1D19100F69EDD /* Build configuration list for PBXNativeTarget "Tadak" */;
+			buildPhases = (
+				9C41532827B21D97F6436E6A /* [CP] Check Pods Manifest.lock */,
+				938C81A225B1D18F00F69EDD /* Sources */,
+				938C81A325B1D18F00F69EDD /* Frameworks */,
+				938C81A425B1D18F00F69EDD /* Resources */,
+				D870E6EC356EBBC97D3594EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tadak;
+			productName = Tadak;
+			productReference = 938C81A625B1D18F00F69EDD /* Tadak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		938C819E25B1D18F00F69EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					938C81A525B1D18F00F69EDD = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 938C81A125B1D18F00F69EDD /* Build configuration list for PBXProject "Tadak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 938C819D25B1D18F00F69EDD;
+			productRefGroup = 938C81A725B1D18F00F69EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				938C81A525B1D18F00F69EDD /* Tadak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		938C81A425B1D18F00F69EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C81B625B1D19100F69EDD /* LaunchScreen.storyboard in Resources */,
+				9347DE1E25B1E20C004F5B93 /* GoogleService-Info.plist in Resources */,
+				938C81B325B1D19000F69EDD /* Assets.xcassets in Resources */,
+				938C81B125B1D18F00F69EDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C41532827B21D97F6436E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tadak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D870E6EC356EBBC97D3594EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tadak/Pods-Tadak-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tadak/Pods-Tadak-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tadak/Pods-Tadak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		938C81A225B1D18F00F69EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */,
+				938C81D125B1DE6200F69EDD /* PhoneCheckViewController.swift in Sources */,
+				938C81D425B1DE6200F69EDD /* ResultViewController.swift in Sources */,
+				938C81D525B1DE6200F69EDD /* GameViewController.swift in Sources */,
+				938C81D725B1DE6200F69EDD /* StartViewController.swift in Sources */,
+				938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */,
+				938C81DE25B1E01D00F69EDD /* ViewController.swift in Sources */,
+				938C81D225B1DE6200F69EDD /* SelectViewController.swift in Sources */,
+				938C81D325B1DE6200F69EDD /* NicknameViewController.swift in Sources */,
+				938C81AC25B1D18F00F69EDD /* SceneDelegate.swift in Sources */,
+				938C81D625B1DE6200F69EDD /* MainViewController.swift in Sources */,
+				938C81D825B1DE6200F69EDD /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		938C81AF25B1D18F00F69EDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938C81B025B1D18F00F69EDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		938C81B425B1D19100F69EDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938C81B525B1D19100F69EDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		938C81B825B1D19100F69EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		938C81B925B1D19100F69EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		938C81BB25B1D19100F69EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570483EB47856E65EE000BAE /* Pods-Tadak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C96RNDN63;
+				INFOPLIST_FILE = Tadak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinhyogeun.Tadak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		938C81BC25B1D19100F69EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49965C25A6D88C5A49B1D35F /* Pods-Tadak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C96RNDN63;
+				INFOPLIST_FILE = Tadak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinhyogeun.Tadak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938C81A125B1D18F00F69EDD /* Build configuration list for PBXProject "Tadak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C81B825B1D19100F69EDD /* Debug */,
+				938C81B925B1D19100F69EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		938C81BA25B1D19100F69EDD /* Build configuration list for PBXNativeTarget "Tadak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938C81BB25B1D19100F69EDD /* Debug */,
+				938C81BC25B1D19100F69EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 938C819E25B1D18F00F69EDD /* Project object */;
+}

@@ -23,16 +23,13 @@ class PhoneCheckViewController: UIViewController {
         settingView()
     }
 
-    
+    //확인 버튼
     @IBAction func Button_check(_ sender: RoundButton) {
         //버튼 처음 클릭시
         if(checked == false) {
             //입력된 폰번호 체크
             let phoneNumber = changePhoneNumber(Input: InputPhoneNumber.text!)
-            Login.ifSucceseSendingMessage(phoneNumber: phoneNumber) {
-                self.showAnimation()
-                self.checked = true
-            }
+            checkPhoneNumber(phoneNumber: phoneNumber)
         }
         //두번째 인증 : 문자가 보내진 후 인증번호 확인
         else {
@@ -52,9 +49,12 @@ class PhoneCheckViewController: UIViewController {
             }
         }
     }
-    
-    func settingView()
-    {
+}
+
+
+
+extension PhoneCheckViewController {
+    func settingView() {
         InputPhoneNumber.keyboardType = .numberPad
         inputCheckNumber.keyboardType = .numberPad
         
@@ -63,8 +63,7 @@ class PhoneCheckViewController: UIViewController {
         reSend.alpha = 0
     }
     
-    func showAnimation()
-    {
+    func showAnimation() {
         UIView.animate(withDuration: 0.5, animations: {
             self.setView.alpha = 1
             self.inputCheckNumber.alpha = 1
@@ -73,28 +72,30 @@ class PhoneCheckViewController: UIViewController {
         send.setTitle("인증하기", for: UIControl.State.normal)
     }
     
-    func changePhoneNumber(Input: String) -> String
-    {
+    func changePhoneNumber(Input: String) -> String {
         let result: String = "+8210" + Input.dropFirst(3)
         print(result)
         return result
     }
     
-    func goNextView()
-    {
+    func goNextView() {
         let vcName = self.storyboard?.instantiateViewController(withIdentifier: "NicknameViewController")
         vcName?.modalPresentationStyle = .fullScreen
         vcName?.modalTransitionStyle = .crossDissolve
         self.present(vcName!, animated: true, completion: nil)
     }
     
-    func goMainView()
-    {
+    func goMainView() {
         let vcName = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController")
         vcName?.modalPresentationStyle = .fullScreen
         vcName?.modalTransitionStyle = .crossDissolve
         self.present(vcName!, animated: true, completion: nil)
     }
     
+    func checkPhoneNumber(phoneNumber: String) {
+        Login.ifSucceseSendingMessage(phoneNumber: phoneNumber) {
+            self.showAnimation()
+            self.checked = true
+        }
+    }
 }
-

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87E1295D25B31C76001332F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1295C25B31C76001332F0 /* User.swift */; };
+		87E1296125B321C4001332F0 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1296025B321C4001332F0 /* Logout.swift */; };
 		9347DE1E25B1E20C004F5B93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */; };
 		938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81A925B1D18F00F69EDD /* AppDelegate.swift */; };
 		938C81AC25B1D18F00F69EDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C81AB25B1D18F00F69EDD /* SceneDelegate.swift */; };
@@ -17,7 +19,7 @@
 		9395014825B1FF9500ACDAE8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9395014725B1FF9500ACDAE8 /* Login.swift */; };
 		93EB122325B1F0CE00C49374 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121C25B1F0CD00C49374 /* ResultViewController.swift */; };
 		93EB122425B1F0CE00C49374 /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB122025B1F0CD00C49374 /* NicknameViewController.swift */; };
-		93EB122525B1F0CE00C49374 /* MainViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121F25B1F0CD00C49374 /* MainViewController copy.swift */; };
+		93EB122525B1F0CE00C49374 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121F25B1F0CD00C49374 /* MainViewController.swift */; };
 		93EB122625B1F0CE00C49374 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121D25B1F0CD00C49374 /* SelectViewController.swift */; };
 		93EB122725B1F0CE00C49374 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB121B25B1F0CD00C49374 /* SettingViewController.swift */; };
 		93EB122825B1F0CE00C49374 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EB122125B1F0CE00C49374 /* GameViewController.swift */; };
@@ -34,6 +36,8 @@
 /* Begin PBXFileReference section */
 		49965C25A6D88C5A49B1D35F /* Pods-Tadak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.release.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.release.xcconfig"; sourceTree = "<group>"; };
 		570483EB47856E65EE000BAE /* Pods-Tadak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.debug.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.debug.xcconfig"; sourceTree = "<group>"; };
+		87E1295C25B31C76001332F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		87E1296025B321C4001332F0 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		938C81A625B1D18F00F69EDD /* Tadak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tadak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938C81A925B1D18F00F69EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +53,7 @@
 		93EB121C25B1F0CD00C49374 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		93EB121D25B1F0CD00C49374 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		93EB121E25B1F0CD00C49374 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		93EB121F25B1F0CD00C49374 /* MainViewController copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController copy.swift"; sourceTree = "<group>"; };
+		93EB121F25B1F0CD00C49374 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		93EB122025B1F0CD00C49374 /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
 		93EB122125B1F0CE00C49374 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		93EB122225B1F0CE00C49374 /* PhoneCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCheckViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87E1296325B32775001332F0 /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Brain;
+			sourceTree = "<group>";
+		};
 		938C819D25B1D18F00F69EDD = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +104,7 @@
 		938C81A825B1D18F00F69EDD /* Tadak */ = {
 			isa = PBXGroup;
 			children = (
+				87E1296325B32775001332F0 /* Brain */,
 				9395014425B1FCB700ACDAE8 /* model */,
 				93EB122E25B1F10500C49374 /* fonts */,
 				93EB122D25B1F0DF00C49374 /* ViewController */,
@@ -112,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				9395014725B1FF9500ACDAE8 /* Login.swift */,
+				87E1295C25B31C76001332F0 /* User.swift */,
+				87E1296025B321C4001332F0 /* Logout.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -120,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				93EB122125B1F0CE00C49374 /* GameViewController.swift */,
-				93EB121F25B1F0CD00C49374 /* MainViewController copy.swift */,
+				93EB121F25B1F0CD00C49374 /* MainViewController.swift */,
 				93EB122025B1F0CD00C49374 /* NicknameViewController.swift */,
 				93EB122225B1F0CE00C49374 /* PhoneCheckViewController.swift */,
 				93EB121C25B1F0CD00C49374 /* ResultViewController.swift */,
@@ -285,12 +299,14 @@
 				938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */,
 				938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */,
 				93EB122A25B1F0CE00C49374 /* PhoneCheckViewController.swift in Sources */,
+				87E1295D25B31C76001332F0 /* User.swift in Sources */,
 				93EB122B25B1F0CE00C49374 /* ScoreViewController.swift in Sources */,
 				93EB122925B1F0CE00C49374 /* StartViewController.swift in Sources */,
 				93EB122625B1F0CE00C49374 /* SelectViewController.swift in Sources */,
 				93EB122725B1F0CE00C49374 /* SettingViewController.swift in Sources */,
-				93EB122525B1F0CE00C49374 /* MainViewController copy.swift in Sources */,
+				93EB122525B1F0CE00C49374 /* MainViewController.swift in Sources */,
 				93EB122425B1F0CE00C49374 /* NicknameViewController.swift in Sources */,
+				87E1296125B321C4001332F0 /* Logout.swift in Sources */,
 				938C81AC25B1D18F00F69EDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

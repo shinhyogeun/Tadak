@@ -14,6 +14,7 @@ class Login {
     
     //기존에 로그인 되어 있는지 여부 반환
     static func isAlreadyIn() -> Bool {
+        print(Auth.auth().currentUser)
         return Auth.auth().currentUser != nil
     }
     //폰번호 전송 후 성공시
@@ -60,18 +61,18 @@ class Login {
         }
     }
     
-    static func ifInputNickNameUnique(nick: String, completion: @escaping () -> Void ) -> Void {
+    static func ifInputNickNameUnique(nick: String, completion: @escaping (_ isErrorExite : Bool) -> Void ) -> Void {
         let nickname = ["nickname":"\(nick)"]
         let childUpdate = ["/users/\(Auth.auth().currentUser!.uid)/nickname" : nickname]
         let childUpdate2 = ["/nickname/\(nick)" : nickname]
         
         self.ref.updateChildValues(childUpdate) { (error, dataSnapshot) in
-            if let error = error{
-                print(error.localizedDescription , "이미 다른 사람이 쓰고 있는 것 같습니다.")
+            if let _ = error{
+                completion(true)
             } else{
                 self.ref.updateChildValues(childUpdate2)
                 DispatchQueue.main.async {
-                    completion()
+                    completion(false)
                 }
             }
         }

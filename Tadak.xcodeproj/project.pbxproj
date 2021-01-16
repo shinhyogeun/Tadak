@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8760D92725B33B0500F3481C /* GameText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8760D92625B33B0500F3481C /* GameText.swift */; };
 		87E1295D25B31C76001332F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1295C25B31C76001332F0 /* User.swift */; };
 		87E1296125B321C4001332F0 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1296025B321C4001332F0 /* Logout.swift */; };
 		9347DE1E25B1E20C004F5B93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		49965C25A6D88C5A49B1D35F /* Pods-Tadak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.release.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.release.xcconfig"; sourceTree = "<group>"; };
 		570483EB47856E65EE000BAE /* Pods-Tadak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.debug.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.debug.xcconfig"; sourceTree = "<group>"; };
+		8760D92625B33B0500F3481C /* GameText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameText.swift; sourceTree = "<group>"; };
 		87E1295C25B31C76001332F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		87E1296025B321C4001332F0 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		9347DE1D25B1E20C004F5B93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -79,6 +81,7 @@
 		87E1296325B32775001332F0 /* Brain */ = {
 			isa = PBXGroup;
 			children = (
+				8760D92625B33B0500F3481C /* GameText.swift */,
 			);
 			path = Brain;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				93EB122A25B1F0CE00C49374 /* PhoneCheckViewController.swift in Sources */,
 				87E1295D25B31C76001332F0 /* User.swift in Sources */,
 				93EB122B25B1F0CE00C49374 /* ScoreViewController.swift in Sources */,
+				8760D92725B33B0500F3481C /* GameText.swift in Sources */,
 				93EB122925B1F0CE00C49374 /* StartViewController.swift in Sources */,
 				93EB122625B1F0CE00C49374 /* SelectViewController.swift in Sources */,
 				93EB122725B1F0CE00C49374 /* SettingViewController.swift in Sources */,

@@ -15,7 +15,7 @@ class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Logout.tryLogout()
+//        Logout.tryLogout()
     }
     
     

@@ -6,21 +6,28 @@
 //
 
 import UIKit
+import Firebase
 
 class SettingViewController: UIViewController {
 
-    @IBOutlet weak var UITextField_inputPhoneNumber: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func Button_korea(_ sender: UIButton) {
-        let vcName = self.storyboard?.instantiateViewController(withIdentifier: "SelectViewController")
-        vcName?.modalPresentationStyle = .fullScreen
-        vcName?.modalTransitionStyle = .crossDissolve
-        self.present(vcName!, animated: true, completion: nil)
+    @IBAction func logout(_ sender: RoundButton) {
+        Logout.tryLogout()
+        goStartView()
     }
     
 }
 
+
+extension SettingViewController {
+    func goStartView() {
+        let vcName = self.storyboard?.instantiateViewController(withIdentifier: "StartViewController")
+        vcName?.modalPresentationStyle = .fullScreen
+        vcName?.modalTransitionStyle = .crossDissolve
+        self.present(vcName!, animated: true, completion: nil)
+    }
+}

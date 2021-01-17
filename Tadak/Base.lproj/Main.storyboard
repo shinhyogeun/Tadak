@@ -120,6 +120,7 @@
                                         <connections>
                                             <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="CsG-F4-ifc"/>
                                             <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="RtR-It-HEs"/>
+                                            <action selector="logout:" destination="jZi-rE-275" eventType="touchUpInside" id="Umd-Ts-DMq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72a-Eg-S2c" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
@@ -765,7 +766,7 @@
         <!--Start View Controller-->
         <scene sceneID="hiQ-f3-ZR1">
             <objects>
-                <viewController id="ec9-0X-BL7" customClass="StartViewController" customModule="Tadak" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StartViewController" id="ec9-0X-BL7" customClass="StartViewController" customModule="Tadak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fb5-4E-zZK">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

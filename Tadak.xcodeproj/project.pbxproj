@@ -97,8 +97,6 @@
 		938C819D25B1D18F00F69EDD = {
 			isa = PBXGroup;
 			children = (
-				8730366925B3D95800E62600 /* gameTableViewCell.swift */,
-				8730366A25B3D95800E62600 /* gameTableViewCell.xib */,
 				938C81A825B1D18F00F69EDD /* Tadak */,
 				938C81A725B1D18F00F69EDD /* Products */,
 				E9D55FF8CC9638E79A525257 /* Pods */,
@@ -157,6 +155,8 @@
 				93EB121D25B1F0CD00C49374 /* SelectViewController.swift */,
 				93EB121B25B1F0CD00C49374 /* SettingViewController.swift */,
 				93EB121A25B1F0CD00C49374 /* StartViewController.swift */,
+				8730366925B3D95800E62600 /* gameTableViewCell.swift */,
+				8730366A25B3D95800E62600 /* gameTableViewCell.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";

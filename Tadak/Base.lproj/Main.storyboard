@@ -492,38 +492,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7aK-vm-cws">
-                                <rect key="frame" x="4.6666666666666572" y="228.66666666666663" width="381" height="247"/>
+                                <rect key="frame" x="4.6666666666666572" y="227" width="381" height="250"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="왜들 그리 다운돼있어?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVi-jG-IFK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVi-jG-IFK">
                                         <rect key="frame" x="15.333333333333343" y="4" width="350" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="350" id="PTj-ck-Ckg"/>
+                                            <constraint firstAttribute="height" constant="21" id="eUF-2U-VAH"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="왜들 그리 다운돼있어?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksi-jW-0J8">
-                                        <rect key="frame" x="15.333333333333343" y="40.000000000000028" width="350" height="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksi-jW-0J8">
+                                        <rect key="frame" x="15.333333333333343" y="40" width="350" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="350" id="jpg-ih-UEv"/>
+                                            <constraint firstAttribute="height" constant="21" id="pHy-rz-gpc"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="뭐가 문제야 say something" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agx-Lv-PTl">
-                                        <rect key="frame" x="15.333333333333343" y="75.000000000000028" width="350" height="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agx-Lv-PTl">
+                                        <rect key="frame" x="15.333333333333343" y="76" width="350" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="350" id="4Ux-vj-OKB"/>
+                                            <constraint firstAttribute="height" constant="21" id="E9z-eh-h5X"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="분위기가 겁나 싸해" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4v-g7-dD3">
-                                        <rect key="frame" x="15.333333333333343" y="110.00000000000003" width="350" height="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4v-g7-dD3">
+                                        <rect key="frame" x="15.333333333333343" y="112" width="350" height="21"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="L2W-pd-huo"/>
                                             <constraint firstAttribute="width" constant="350" id="yf0-iZ-MF7"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
@@ -531,7 +535,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7pm-Vr-BbI">
-                                        <rect key="frame" x="4" y="160.00000000000003" width="373" height="83"/>
+                                        <rect key="frame" x="4" y="163" width="373" height="83"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="input" translatesAutoresizingMaskIntoConstraints="NO" id="teO-Kr-Pwi">
                                                 <rect key="frame" x="4" y="4" width="365" height="75"/>
@@ -540,8 +544,8 @@
                                                     <constraint firstAttribute="height" constant="75" id="fh8-FO-XwN"/>
                                                 </constraints>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="뭐가 문제야 say something" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="38A-wv-M0c">
-                                                <rect key="frame" x="20" y="16.333333333333314" width="333" height="40"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="38A-wv-M0c">
+                                                <rect key="frame" x="20" y="16.666666666666686" width="333" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="33l-Tu-G58"/>
                                                     <constraint firstAttribute="width" constant="333" id="a3a-Ah-gi7"/>
@@ -609,6 +613,15 @@
                             <constraint firstItem="rAJ-me-Akk" firstAttribute="top" secondItem="BJk-h8-xfP" secondAttribute="bottom" constant="27" id="wHO-I7-8g4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="afterLabel" destination="Ksi-jW-0J8" id="idN-eI-Oce"/>
+                        <outlet property="beforeLabel" destination="r4v-g7-dD3" id="Sca-Vi-ovE"/>
+                        <outlet property="gameTitle" destination="rAJ-me-Akk" id="FWW-CU-TBz"/>
+                        <outlet property="inputTextField" destination="38A-wv-M0c" id="OXp-oM-sNA"/>
+                        <outlet property="nowLabel" destination="agx-Lv-PTl" id="8KJ-yg-KeL"/>
+                        <outlet property="timeLabel" destination="BJk-h8-xfP" id="jyw-2S-8Fe"/>
+                        <outlet property="upperAfterLabel" destination="wVi-jG-IFK" id="GyB-7f-CyK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N8p-s8-9bR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1392,9 +1405,6 @@
                                 <state key="normal" title="아무노래" backgroundImage="select_button">
                                     <color key="titleColor" name="blue"/>
                                 </state>
-                                <connections>
-                                    <action selector="Button_SampleGame:" destination="abj-bG-Jws" eventType="touchUpInside" id="qcB-cu-3Xk"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJv-r3-cp2">
                                 <rect key="frame" x="40" y="515.66666666666663" width="310" height="80"/>

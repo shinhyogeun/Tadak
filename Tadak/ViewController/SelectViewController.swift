@@ -18,10 +18,6 @@ class SelectViewController: UIViewController {
         super.viewDidLoad()
         baseSetup()
     }
-
-    @IBAction func Button_SampleGame(_ sender: UIButton) {
-        goNextView()
-    }
     
     @IBAction func Button_back(_ sender: UIButton) {
         goBackView()
@@ -45,6 +41,7 @@ extension SelectViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         GameContents.getContentsAndThen(indexPathRow: indexPath.row) {
             self.goNextView()
+            print("nextView()")
         }
     }
     
@@ -69,6 +66,5 @@ extension SelectViewController : UITableViewDelegate, UITableViewDataSource {
         gameTableView.dataSource = self
         self.gameTableView.register(UINib(nibName: "gameTableViewCell", bundle: nil), forCellReuseIdentifier: "gameCell")
         gameTableView.rowHeight = 90
-        navigationController?.isNavigationBarHidden = true
     }
 }

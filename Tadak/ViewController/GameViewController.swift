@@ -263,7 +263,7 @@ extension GameViewController {
         if(GameContents.isTimeOver()) {
             GameContents.time = -1
         } else {
-            Recode.updateRecode()
+//            Recode.updateRecode()
         }
         
         self.view.endEditing(true)

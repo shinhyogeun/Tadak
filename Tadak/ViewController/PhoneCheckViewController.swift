@@ -30,6 +30,7 @@ class PhoneCheckViewController: UIViewController {
             //입력된 폰번호 체크
             let phoneNumber = changePhoneNumber(Input: InputPhoneNumber.text!)
             checkPhoneNumber(phoneNumber: phoneNumber)
+            checked = true
         }
         //두번째 인증 : 문자가 보내진 후 인증번호 확인
         else {
@@ -49,6 +50,14 @@ class PhoneCheckViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func resendButton(_ sender: RoundButton) {
+        disshowAnimation()
+        let phoneNumber = changePhoneNumber(Input: InputPhoneNumber.text!)
+        checkPhoneNumber(phoneNumber: phoneNumber)
+        checked = true
+    }
+    
 }
 
 
@@ -70,6 +79,14 @@ extension PhoneCheckViewController {
             self.reSend.alpha = 1
         })
         send.setTitle("인증하기", for: UIControl.State.normal)
+    }
+    
+    func disshowAnimation() {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.setView.alpha = 0
+            self.inputCheckNumber.alpha = 0
+            self.reSend.alpha = 0
+        })
     }
     
     func changePhoneNumber(Input: String) -> String {
@@ -95,7 +112,6 @@ extension PhoneCheckViewController {
     func checkPhoneNumber(phoneNumber: String) {
         Login.ifSucceseSendingMessage(phoneNumber: phoneNumber) {
             self.showAnimation()
-            self.checked = true
         }
     }
 }

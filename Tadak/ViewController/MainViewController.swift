@@ -9,20 +9,30 @@ import UIKit
 import Firebase
 
 class MainViewController: UIViewController {
-
-    @IBOutlet weak var UITextField_inputPhoneNumber: UITextField!
+    
+    @IBOutlet weak var korButton: UIButton!
+    @IBOutlet weak var engButton: UIButton!
+    @IBOutlet weak var extButton: UIButton!
     
     let ref = Database.database().reference()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 //        uploadTitleData()
 //        uploadGameData()
+        
     }
 
-    @IBAction func Button_korea(_ sender: UIButton) {
-        goNextView()
+    @IBAction func topicButton(_ sender: UIButton) {
+        if sender == korButton {
+            korGame()
+        }
+        if sender == engButton {
+            engGame()
+        }
+        if sender == extButton {
+            extGame()
+        }
     }
     
     @IBAction func Button_setting(_ sender: UIButton) {
@@ -59,5 +69,29 @@ extension MainViewController {
             "Extra" : GameText.Extra().extraText
         ]
         ref.child("game").setValue(gameData)
+    }
+    
+    func korGame() {
+        let kor = "한글대전"
+        GameList.getGameListAndThen(pressedButtonText: kor) {
+            self.goNextView()
+        }
+        return
+    }
+    
+    func engGame() {
+        let eng = "영어대전"
+        GameList.getGameListAndThen(pressedButtonText: eng) {
+            self.goNextView()
+        }
+        return
+    }
+    
+    func extGame() {
+        let ext = "Extra"
+        GameList.getGameListAndThen(pressedButtonText: ext) {
+            self.goNextView()
+        }
+        return
     }
 }

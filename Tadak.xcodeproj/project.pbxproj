@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8730366B25B3D95800E62600 /* gameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730366925B3D95800E62600 /* gameTableViewCell.swift */; };
+		8730366C25B3D95800E62600 /* gameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8730366A25B3D95800E62600 /* gameTableViewCell.xib */; };
+		8730366F25B3DBE100E62600 /* GameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730366E25B3DBE100E62600 /* GameList.swift */; };
+		8730368925B3DE2400E62600 /* GameContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8730368825B3DE2400E62600 /* GameContents.swift */; };
 		8760D92725B33B0500F3481C /* GameText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8760D92625B33B0500F3481C /* GameText.swift */; };
 		87E1295D25B31C76001332F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1295C25B31C76001332F0 /* User.swift */; };
 		87E1296125B321C4001332F0 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1296025B321C4001332F0 /* Logout.swift */; };
@@ -37,6 +41,10 @@
 /* Begin PBXFileReference section */
 		49965C25A6D88C5A49B1D35F /* Pods-Tadak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.release.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.release.xcconfig"; sourceTree = "<group>"; };
 		570483EB47856E65EE000BAE /* Pods-Tadak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadak.debug.xcconfig"; path = "Target Support Files/Pods-Tadak/Pods-Tadak.debug.xcconfig"; sourceTree = "<group>"; };
+		8730366925B3D95800E62600 /* gameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameTableViewCell.swift; sourceTree = "<group>"; };
+		8730366A25B3D95800E62600 /* gameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = gameTableViewCell.xib; sourceTree = "<group>"; };
+		8730366E25B3DBE100E62600 /* GameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameList.swift; sourceTree = "<group>"; };
+		8730368825B3DE2400E62600 /* GameContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContents.swift; sourceTree = "<group>"; };
 		8760D92625B33B0500F3481C /* GameText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameText.swift; sourceTree = "<group>"; };
 		87E1295C25B31C76001332F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		87E1296025B321C4001332F0 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
@@ -89,6 +97,8 @@
 		938C819D25B1D18F00F69EDD = {
 			isa = PBXGroup;
 			children = (
+				8730366925B3D95800E62600 /* gameTableViewCell.swift */,
+				8730366A25B3D95800E62600 /* gameTableViewCell.xib */,
 				938C81A825B1D18F00F69EDD /* Tadak */,
 				938C81A725B1D18F00F69EDD /* Products */,
 				E9D55FF8CC9638E79A525257 /* Pods */,
@@ -129,6 +139,8 @@
 				9395014725B1FF9500ACDAE8 /* Login.swift */,
 				87E1295C25B31C76001332F0 /* User.swift */,
 				87E1296025B321C4001332F0 /* Logout.swift */,
+				8730366E25B3DBE100E62600 /* GameList.swift */,
+				8730368825B3DE2400E62600 /* GameContents.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -243,6 +255,7 @@
 				9347DE1E25B1E20C004F5B93 /* GoogleService-Info.plist in Resources */,
 				938C81B325B1D19000F69EDD /* Assets.xcassets in Resources */,
 				938C81B125B1D18F00F69EDD /* Main.storyboard in Resources */,
+				8730366C25B3D95800E62600 /* gameTableViewCell.xib in Resources */,
 				93EB123525B1F34000C49374 /* NanumSquareRoundB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +310,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				93EB122825B1F0CE00C49374 /* GameViewController.swift in Sources */,
+				8730368925B3DE2400E62600 /* GameContents.swift in Sources */,
 				93EB122325B1F0CE00C49374 /* ResultViewController.swift in Sources */,
 				9395014825B1FF9500ACDAE8 /* Login.swift in Sources */,
 				938C81C725B1DE2B00F69EDD /* RoundButton.swift in Sources */,
 				938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */,
 				93EB122A25B1F0CE00C49374 /* PhoneCheckViewController.swift in Sources */,
 				87E1295D25B31C76001332F0 /* User.swift in Sources */,
+				8730366F25B3DBE100E62600 /* GameList.swift in Sources */,
 				93EB122B25B1F0CE00C49374 /* ScoreViewController.swift in Sources */,
 				8760D92725B33B0500F3481C /* GameText.swift in Sources */,
 				93EB122925B1F0CE00C49374 /* StartViewController.swift in Sources */,
@@ -311,6 +326,7 @@
 				93EB122525B1F0CE00C49374 /* MainViewController.swift in Sources */,
 				93EB122425B1F0CE00C49374 /* NicknameViewController.swift in Sources */,
 				87E1296125B321C4001332F0 /* Logout.swift in Sources */,
+				8730366B25B3D95800E62600 /* gameTableViewCell.swift in Sources */,
 				938C81AC25B1D18F00F69EDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

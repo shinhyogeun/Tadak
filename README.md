@@ -9,8 +9,8 @@
 * #### "타닥"은 오로지 빠르게 치는 것에만 집중한다는 것입니다.
 "타닥"이라는 타자게임은 타수를 계산하지 않습니다. 속도와 정확성은 모두 시간에 반영되게 설계되어 있습니다. 실시간으로 자모음을 분리해 자신의 오타갯수를 파악합니다. 그 후 그 갯수에 비례하게 시간을 늘립니다. 즉 엉뚱하게 친다면 시간은 계속 늘어나고 100초를 넘어가면 탈락입니다. 이러한 타닥의 특성으로 광고와 보상을 같이 연결하여 사람들의 참여를 유도할 수 있습니다. <br />
 
-email 주소 : tlsgyrms123@gmail.com<br />
-blog 주소 : https://shinhyogeun.tistory.com<br />
+email 주소 : tlsgyrms123@gmail.com / freedeveloper97@gmail.com<br />
+blog 주소 : https://shinhyogeun.tistory.com / https://fdee.tistory.com<br />
 
 ### 자세한 특징
 ------------

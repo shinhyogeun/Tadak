@@ -30,22 +30,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="설정" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ty-Tm-GZ9">
-                                <rect key="frame" x="157" y="50" width="61" height="41"/>
+                                <rect key="frame" x="155.5" y="50" width="64" height="39"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="35"/>
                                 <color key="textColor" name="blue"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" image="box" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-xV-RVD">
-                                <rect key="frame" x="-20" y="271" width="415" height="416"/>
+                                <rect key="frame" x="-20" y="269" width="415" height="418"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom_circle" translatesAutoresizingMaskIntoConstraints="NO" id="iyP-H6-uqc">
-                                <rect key="frame" x="0.0" y="201" width="375" height="100"/>
+                                <rect key="frame" x="0.0" y="199" width="375" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="XPb-Wx-RQq"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sbu-qo-qDA">
-                                <rect key="frame" x="103.5" y="111" width="168" height="168"/>
+                                <rect key="frame" x="103.5" y="109" width="168" height="168"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" translatesAutoresizingMaskIntoConstraints="NO" id="768-l6-qxT">
                                         <rect key="frame" x="4" y="4" width="160" height="160"/>
@@ -55,7 +55,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2q-Tl-xRO">
-                                        <rect key="frame" x="52" y="55" width="64" height="58.5"/>
+                                        <rect key="frame" x="52" y="56.5" width="64" height="55.5"/>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="50"/>
                                         <color key="textColor" name="blue"/>
                                         <nil key="highlightedColor"/>
@@ -72,7 +72,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7g-Q1-Squ">
-                                <rect key="frame" x="187.5" y="289" width="0.0" height="0.0"/>
+                                <rect key="frame" x="187.5" y="287" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -212,7 +212,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seX-ZQ-83t">
-                                <rect key="frame" x="81.5" y="45" width="212" height="128"/>
+                                <rect key="frame" x="80" y="45" width="215.5" height="128"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fSE-NL-6eG">
                                         <rect key="frame" x="4" y="4" width="120" height="120"/>
@@ -222,16 +222,16 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HQL-N4-k5F">
-                                        <rect key="frame" x="134" y="20" width="74" height="76.5"/>
+                                        <rect key="frame" x="134" y="20" width="77.5" height="73"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타자게임" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uY5-6L-tJ7">
-                                                <rect key="frame" x="6" y="51.5" width="62.5" height="21"/>
+                                                <rect key="frame" x="5.5" y="49" width="66" height="20"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="18"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타닥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YH-EK-hED">
-                                                <rect key="frame" x="4" y="4" width="66" height="44.5"/>
+                                                <rect key="frame" x="4" y="4" width="69.5" height="42"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="38"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
@@ -376,7 +376,7 @@
                                 <color key="backgroundColor" name="blue_round"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZr-y1-kiA">
-                                <rect key="frame" x="81.5" y="45" width="212" height="128"/>
+                                <rect key="frame" x="80" y="45" width="215.5" height="128"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_logo" translatesAutoresizingMaskIntoConstraints="NO" id="pzg-5R-CDD">
                                         <rect key="frame" x="4" y="4" width="120" height="120"/>
@@ -386,16 +386,16 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7qP-u6-jlx">
-                                        <rect key="frame" x="134" y="20" width="74" height="76.5"/>
+                                        <rect key="frame" x="134" y="20" width="77.5" height="73"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타자게임" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tD6-wd-vav">
-                                                <rect key="frame" x="6" y="51.5" width="62.5" height="21"/>
+                                                <rect key="frame" x="5.5" y="49" width="66" height="20"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="18"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타닥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahY-wJ-hNG">
-                                                <rect key="frame" x="4" y="4" width="66" height="44.5"/>
+                                                <rect key="frame" x="4" y="4" width="69.5" height="42"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="38"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
@@ -429,7 +429,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한글대전" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbu-kK-fbh">
-                                <rect key="frame" x="130.5" y="233" width="114.5" height="38.5"/>
+                                <rect key="frame" x="127.5" y="233" width="120.5" height="36.5"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -448,7 +448,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FXy-gc-XKF">
-                                <rect key="frame" x="35" y="301.5" width="305" height="345.5"/>
+                                <rect key="frame" x="35" y="299.5" width="305" height="347.5"/>
                                 <color key="backgroundColor" name="blue_round"/>
                             </tableView>
                         </subviews>
@@ -498,13 +498,13 @@
                                 <rect key="frame" x="-22" y="-8" width="419" height="689"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJk-h8-xfP">
-                                <rect key="frame" x="156" y="35" width="63" height="29.5"/>
+                                <rect key="frame" x="153" y="35" width="69.5" height="28"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundB" family="NanumSquareRound" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아무노래" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAJ-me-Akk">
-                                <rect key="frame" x="139" y="91.5" width="97" height="33"/>
+                                <rect key="frame" x="136.5" y="90" width="102" height="31"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -666,13 +666,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게임종료" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNh-nw-Cdk">
-                                <rect key="frame" x="122" y="65" width="131.5" height="44.5"/>
+                                <rect key="frame" x="118.5" y="65" width="138.5" height="42"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아무노래" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJ1-cg-SOq">
-                                <rect key="frame" x="139" y="165" width="97" height="30"/>
+                                <rect key="frame" x="136.5" y="165" width="102" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GaY-c3-87Y"/>
                                 </constraints>
@@ -681,7 +681,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqX-sZ-MZn">
-                                <rect key="frame" x="137.5" y="205" width="100.5" height="40"/>
+                                <rect key="frame" x="132.5" y="205" width="110" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="3o8-uD-xf6"/>
                                 </constraints>
@@ -747,7 +747,7 @@
                                 <rect key="frame" x="30" y="260" width="315" height="309"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개인 순위표 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qND-Rr-knh">
-                                        <rect key="frame" x="116" y="144.5" width="83" height="20"/>
+                                        <rect key="frame" x="114.5" y="145" width="86" height="19"/>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                         <color key="textColor" name="blue"/>
                                         <nil key="highlightedColor"/>
@@ -820,10 +820,10 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LuJ-yZ-V7D">
-                                <rect key="frame" x="92.5" y="83.5" width="190" height="400"/>
+                                <rect key="frame" x="92.5" y="85.5" width="190" height="396.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1n-0R-MDy" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="346" width="150" height="50"/>
+                                        <rect key="frame" x="20" y="342.5" width="150" height="50"/>
                                         <color key="backgroundColor" name="blue_dark"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="RiK-EK-8oq"/>
@@ -843,13 +843,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타자게임" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5i-o2-YaM">
-                                        <rect key="frame" x="58.5" y="241.5" width="73" height="24.5"/>
+                                        <rect key="frame" x="57" y="239" width="76.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="21"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타닥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fr-Zo-rLC">
-                                        <rect key="frame" x="56" y="184" width="78" height="52.5"/>
+                                        <rect key="frame" x="54" y="184" width="82" height="50"/>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundB" family="NanumSquareRound" pointSize="45"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -920,13 +920,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="순위표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssF-fd-Hg1">
-                                <rect key="frame" x="138" y="65" width="99" height="44.5"/>
+                                <rect key="frame" x="135.5" y="65" width="104" height="42"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당신의 순위는?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLz-If-bKj">
-                                <rect key="frame" x="133.5" y="165" width="108.5" height="21"/>
+                                <rect key="frame" x="131.5" y="165" width="112.5" height="20"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="18"/>
                                 <color key="textColor" name="blue"/>
                                 <nil key="highlightedColor"/>
@@ -983,7 +983,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7등" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgn-KY-u5N">
-                                <rect key="frame" x="159" y="196" width="57" height="43"/>
+                                <rect key="frame" x="157" y="195" width="61.5" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="IJe-oa-LO3"/>
                                 </constraints>
@@ -992,16 +992,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아무노래" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAS-Uq-xNP">
-                                <rect key="frame" x="139" y="264" width="97" height="33"/>
+                                <rect key="frame" x="136.5" y="263" width="102" height="31"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="28"/>
                                 <color key="textColor" name="blue"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yn-00-aPu" customClass="MyCustomView" customModule="Tadak" customModuleProvider="target">
-                                <rect key="frame" x="30" y="312" width="315" height="262"/>
+                                <rect key="frame" x="30" y="309" width="315" height="265"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전체 순위표 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3E1-4t-WVJ">
-                                        <rect key="frame" x="116" y="121" width="83" height="20"/>
+                                        <rect key="frame" x="114.5" y="123" width="86" height="19"/>
                                         <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                         <color key="textColor" name="blue"/>
                                         <nil key="highlightedColor"/>
@@ -1068,13 +1068,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="핸드폰 인증" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nu9-d8-0rd">
-                                <rect key="frame" x="107" y="60" width="161.5" height="41"/>
+                                <rect key="frame" x="103.5" y="60" width="168" height="39"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundB" family="NanumSquareRound" pointSize="35"/>
                                 <color key="textColor" name="blue"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fT7-gj-JGl">
-                                <rect key="frame" x="94.5" y="131" width="186" height="40"/>
+                                <rect key="frame" x="90.5" y="129" width="194.5" height="38"/>
                                 <string key="text">인증번호 수신을 위한
 핸드폰 번호를 입력해주세요</string>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
@@ -1248,13 +1248,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="닉네임 설정" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV6-N8-Tjc">
-                                <rect key="frame" x="107" y="60" width="161.5" height="41"/>
+                                <rect key="frame" x="103.5" y="60" width="168" height="39"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="35"/>
                                 <color key="textColor" name="blue"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DT3-Wl-ERh">
-                                <rect key="frame" x="68" y="131" width="239" height="40"/>
+                                <rect key="frame" x="62.5" y="129" width="250" height="38"/>
                                 <string key="text">게임에서 사용하실
 10자리 이내의 닉네임을 적어주세요</string>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
@@ -1349,7 +1349,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7O-4L-MRW">
-                                <rect key="frame" x="81.5" y="45" width="212" height="128"/>
+                                <rect key="frame" x="80" y="45" width="215.5" height="128"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_logo" translatesAutoresizingMaskIntoConstraints="NO" id="9mw-NA-y1k">
                                         <rect key="frame" x="4" y="4" width="120" height="120"/>
@@ -1359,16 +1359,16 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zpe-JF-dau">
-                                        <rect key="frame" x="134" y="20" width="74" height="76.5"/>
+                                        <rect key="frame" x="134" y="20" width="77.5" height="73"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타자게임" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBJ-ru-k0x">
-                                                <rect key="frame" x="6" y="51.5" width="62.5" height="21"/>
+                                                <rect key="frame" x="5.5" y="49" width="66" height="20"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="18"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="타닥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LQ-Wz-fnc">
-                                                <rect key="frame" x="4" y="4" width="66" height="44.5"/>
+                                                <rect key="frame" x="4" y="4" width="69.5" height="42"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="38"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
@@ -1405,13 +1405,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한글대전" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krc-Tc-eys">
-                                <rect key="frame" x="130.5" y="233" width="114.5" height="38.5"/>
+                                <rect key="frame" x="127.5" y="233" width="120.5" height="36.5"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFE-cY-OQX">
-                                <rect key="frame" x="32.5" y="301.5" width="310" height="80"/>
+                                <rect key="frame" x="32.5" y="299.5" width="310" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="310" id="Hep-nC-1lI"/>
                                     <constraint firstAttribute="height" constant="80" id="MCY-qn-jvc"/>
@@ -1423,7 +1423,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ew1-pM-o5T">
-                                <rect key="frame" x="32.5" y="386.5" width="310" height="80"/>
+                                <rect key="frame" x="32.5" y="384.5" width="310" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="9eb-I6-Kcn"/>
                                     <constraint firstAttribute="width" constant="310" id="VHQ-xa-Ynk"/>
@@ -1435,7 +1435,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJv-r3-cp2">
-                                <rect key="frame" x="32.5" y="471.5" width="310" height="80"/>
+                                <rect key="frame" x="32.5" y="469.5" width="310" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="TR4-do-J1F"/>
                                     <constraint firstAttribute="width" constant="310" id="rE5-aU-LBC"/>
@@ -1447,7 +1447,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGR-2z-XOx">
-                                <rect key="frame" x="32.5" y="556.5" width="310" height="80"/>
+                                <rect key="frame" x="32.5" y="554.5" width="310" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Rzc-Ky-o95"/>
                                     <constraint firstAttribute="width" constant="310" id="kRd-gA-Fmw"/>
@@ -1505,10 +1505,10 @@
             </objects>
             <point key="canvasLocation" x="3685" y="745"/>
         </scene>
-        <!--2명-->
+        <!--ADMIN View Controller-->
         <scene sceneID="Ynq-V9-2sE">
             <objects>
-                <viewController storyboardIdentifier="ADMINViewController" id="4I3-Wl-3d7" customClass="ADMINViewController" customModule="Tadak" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ADMINViewController" id="4I3-Wl-3d7" userLabel="ADMIN View Controller" customClass="ADMINViewController" customModule="Tadak" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0vE-66-vNS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1517,22 +1517,22 @@
                                 <rect key="frame" x="0.0" y="-44" width="375" height="944"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cEH-B8-ltA">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="854"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="849"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="관리자" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxF-4V-z6a">
-                                                <rect key="frame" x="142" y="50" width="91" height="41"/>
+                                                <rect key="frame" x="139.5" y="50" width="96" height="39"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="35"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게임 제목입력" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auo-31-Yq3">
-                                                <rect key="frame" x="141" y="121" width="93" height="20"/>
+                                                <rect key="frame" x="139" y="119" width="97.5" height="19"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLb-m7-V1e" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
-                                                <rect key="frame" x="112.5" y="291" width="150" height="45"/>
+                                                <rect key="frame" x="112.5" y="287" width="150" height="45"/>
                                                 <color key="backgroundColor" name="blue_round"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="150" id="cku-Ee-vx2"/>
@@ -1550,10 +1550,11 @@
                                                 <connections>
                                                     <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="zUi-aD-xHj"/>
                                                     <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="6I7-kR-t4Q"/>
+                                                    <action selector="addLineButton:" destination="4I3-Wl-3d7" eventType="touchUpInside" id="uKv-oq-xt8"/>
                                                 </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ANG-Hf-LDm">
-                                                <rect key="frame" x="87.5" y="146" width="200" height="40"/>
+                                                <rect key="frame" x="87.5" y="143" width="200" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="0Rd-Dj-CXn"/>
                                                     <constraint firstAttribute="width" constant="200" id="f0r-if-pNc"/>
@@ -1562,24 +1563,33 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게임 내용 한줄씩 입력" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXD-Tb-WYN">
-                                                <rect key="frame" x="114" y="206" width="147" height="20"/>
+                                                <rect key="frame" x="111.5" y="203" width="152" height="19"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kwk-Rk-0CJ">
-                                                <rect key="frame" x="27.5" y="356" width="320" height="300"/>
+                                                <rect key="frame" x="27.5" y="352" width="320" height="300"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="300" id="8G0-sl-Vzy"/>
                                                     <constraint firstAttribute="width" constant="320" id="NHl-yT-Ol4"/>
                                                 </constraints>
-                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <mutableString key="text">[
+                "왜들 그리 다운돼있어?",
+                "뭐가 문제야 say something",
+                "분위기가 겁나나 싸해",
+                "요새는 이런 게 유행인가",
+                "왜들 그리 재미없어?",
+                "아 그건 나도 마찬가지",
+                "Tell me what I got to do",
+                "급한 대로 블루투스 켜"
+            ],</mutableString>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MAX : kor - 25, eng - 39" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7V1-AE-Sg8">
-                                                <rect key="frame" x="21" y="231" width="333" height="40"/>
+                                                <rect key="frame" x="21" y="227" width="333" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="JYC-fJ-0XX"/>
                                                     <constraint firstAttribute="width" constant="333" id="Nkj-Mh-9OX"/>
@@ -1588,13 +1598,13 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="카테고리 선택" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5Z-Bo-kjF">
-                                                <rect key="frame" x="141" y="676" width="93" height="20"/>
+                                                <rect key="frame" x="139" y="672" width="97.5" height="19"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                                 <color key="textColor" name="blue"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-lw-JU8">
-                                                <rect key="frame" x="11.5" y="706" width="352" height="53"/>
+                                                <rect key="frame" x="11.5" y="701" width="352" height="53"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6A-nD-ofr" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
                                                         <rect key="frame" x="4" y="4" width="100" height="45"/>
@@ -1615,6 +1625,7 @@
                                                         <connections>
                                                             <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="t0N-Fm-i9T"/>
                                                             <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="7ar-qX-7oM"/>
+                                                            <action selector="korButton:" destination="4I3-Wl-3d7" eventType="touchUpInside" id="5nG-gv-V3x"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iy4-HS-UL2" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
@@ -1636,6 +1647,7 @@
                                                         <connections>
                                                             <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="vhM-OX-gFt"/>
                                                             <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="EY1-jo-oqA"/>
+                                                            <action selector="engButton:" destination="4I3-Wl-3d7" eventType="touchUpInside" id="K33-tj-qhE"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Niy-wD-Zhr" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
@@ -1657,6 +1669,7 @@
                                                         <connections>
                                                             <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="YRC-D4-mr9"/>
                                                             <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="RFc-vS-Mbn"/>
+                                                            <action selector="extButton:" destination="4I3-Wl-3d7" eventType="touchUpInside" id="p9K-ux-fLg"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -1673,7 +1686,7 @@
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h58-Zq-HZL" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
-                                                <rect key="frame" x="112.5" y="789" width="150" height="50"/>
+                                                <rect key="frame" x="112.5" y="784" width="150" height="50"/>
                                                 <color key="backgroundColor" name="red"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="150" id="RcE-Ch-O4L"/>
@@ -1691,6 +1704,7 @@
                                                 <connections>
                                                     <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="we8-Ia-XTy"/>
                                                     <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="dFI-XR-bHA"/>
+                                                    <action selector="uploadButton:" destination="4I3-Wl-3d7" eventType="touchUpInside" id="qw1-AV-rAj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFN-YX-R3x">
@@ -1759,12 +1773,68 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" id="t20-Lo-u5k"/>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="900"/>
+                    <connections>
+                        <outlet property="inputGameText" destination="7V1-AE-Sg8" id="v9v-GI-NJJ"/>
+                        <outlet property="inputTitle" destination="ANG-Hf-LDm" id="tQP-su-swd"/>
+                        <outlet property="showCategory" destination="i5Z-Bo-kjF" id="hef-ut-PQT"/>
+                        <outlet property="showGameText" destination="kwk-Rk-0CJ" id="D5t-Yh-AKh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aZ-qe-xBK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1654" y="188"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="4Bi-Hq-ghW">
+            <size key="intrinsicContentSize" width="55" height="35"/>
+        </designable>
+        <designable name="5Fh-gs-bYW">
+            <size key="intrinsicContentSize" width="55" height="35"/>
+        </designable>
+        <designable name="5Xh-4U-8c0">
+            <size key="intrinsicContentSize" width="55" height="35"/>
+        </designable>
+        <designable name="67D-qW-Fac">
+            <size key="intrinsicContentSize" width="73" height="35"/>
+        </designable>
+        <designable name="72a-Eg-S2c">
+            <size key="intrinsicContentSize" width="78" height="35"/>
+        </designable>
+        <designable name="Adk-uE-bfs">
+            <size key="intrinsicContentSize" width="96" height="35"/>
+        </designable>
+        <designable name="Iy4-HS-UL2">
+            <size key="intrinsicContentSize" width="31" height="31"/>
+        </designable>
+        <designable name="Niy-wD-Zhr">
+            <size key="intrinsicContentSize" width="30" height="31"/>
+        </designable>
+        <designable name="OwF-ck-pCV">
+            <size key="intrinsicContentSize" width="55" height="35"/>
+        </designable>
+        <designable name="Uey-xO-zpQ">
+            <size key="intrinsicContentSize" width="73" height="35"/>
+        </designable>
+        <designable name="W1n-0R-MDy">
+            <size key="intrinsicContentSize" width="73" height="35"/>
+        </designable>
+        <designable name="X1s-Wv-0Bd">
+            <size key="intrinsicContentSize" width="133" height="35"/>
+        </designable>
+        <designable name="d6A-nD-ofr">
+            <size key="intrinsicContentSize" width="30" height="31"/>
+        </designable>
+        <designable name="h58-Zq-HZL">
+            <size key="intrinsicContentSize" width="52" height="31"/>
+        </designable>
+        <designable name="lcF-d5-wyX">
+            <size key="intrinsicContentSize" width="115" height="35"/>
+        </designable>
+        <designable name="mLb-m7-V1e">
+            <size key="intrinsicContentSize" width="31" height="31"/>
+        </designable>
+    </designables>
     <resources>
         <image name="back" width="24" height="26.5"/>
         <image name="background" width="393" height="830"/>

@@ -9,8 +9,16 @@ import UIKit
 import Firebase
 
 class NicknameViewController: UIViewController {
-
-    @IBOutlet weak var inputNickName: UITextField!
+    
+    let BLUE = UIColor(named: "blue")
+    
+    @IBOutlet weak var inputNickName: UITextField! {
+        didSet {
+            let redPlaceholderText = NSAttributedString(string: "닉네임 입력",
+                attributes: [NSAttributedString.Key.foregroundColor: BLUE])
+            inputNickName.attributedPlaceholder = redPlaceholderText
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         hideKeyboard()

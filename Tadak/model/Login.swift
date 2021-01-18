@@ -18,16 +18,16 @@ class Login {
         return Auth.auth().currentUser != nil
     }
     //폰번호 전송 후 성공시
-    static func ifSucceseSendingMessage (phoneNumber : String, completion: (() -> Void)?) -> Void {
+    static func ifSucceseSendingMessage (phoneNumber : String, completion: @escaping (_ isErrorExite: Bool) -> Void) -> Void {
         PhoneAuthProvider.provider().verifyPhoneNumber(phoneNumber, uiDelegate: nil) { (verificationID, err) in
             if let error = err {
+                //경고창
                 return print(error)
+                completion(true)
             }
-            
-            UserDefaults.standard.set(verificationID,forKey: "authVerificationID")
-            
-            if let completion = completion {
-                completion()
+            else {
+                UserDefaults.standard.set(verificationID,forKey: "authVerificationID")
+                completion(false)
             }
         }
     }
@@ -77,5 +77,4 @@ class Login {
             }
         }
     }
-    
 }

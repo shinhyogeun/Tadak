@@ -21,10 +21,7 @@ class gameTableViewCell: UITableViewCell {
         super.awakeFromNib()
         ref = Database.database().reference()
     }
-
-    @IBAction func cellSelected(_ sender: UIButton) {
-        
-    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }

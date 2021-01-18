@@ -24,6 +24,9 @@ class SettingViewController: UIViewController {
         goStartView()
     }
     
+    @IBAction func ADMIN(_ sender: UIButton) {
+        ADMIN()
+    }
 }
 
 
@@ -45,5 +48,12 @@ extension SettingViewController {
                 print(getName)
                 self.showName.text = getName
             }
+    }
+    
+    func ADMIN() {
+        let vcName = self.storyboard?.instantiateViewController(withIdentifier: "ADMINViewController")
+        vcName?.modalPresentationStyle = .fullScreen
+        vcName?.modalTransitionStyle = .crossDissolve
+        self.present(vcName!, animated: true, completion: nil)
     }
 }

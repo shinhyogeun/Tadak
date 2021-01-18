@@ -11,7 +11,7 @@ import UIKit
 class Calculate {
     
     var aa = 2
-    let BLUE = UIColor(named: "blue")
+    let BLUE = UIColor(named: "blue_dark")
     var missArr : Array<Int> = []
     var firstCharThatExceptionInArr : Int = 0
     

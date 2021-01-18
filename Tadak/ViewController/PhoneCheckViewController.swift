@@ -11,10 +11,24 @@ import Firebase
 class PhoneCheckViewController: UIViewController {
 
     var checked: Bool = false
-    @IBOutlet weak var InputPhoneNumber: UITextField!
+    let BLUE = UIColor(named: "blue")
+    
+    @IBOutlet weak var InputPhoneNumber: UITextField! {
+        didSet {
+            let PlaceholderText = NSAttributedString(string: "핸드폰 번호 입력",
+                attributes: [NSAttributedString.Key.foregroundColor: BLUE!])
+            InputPhoneNumber.attributedPlaceholder = PlaceholderText
+        }
+    }
     @IBOutlet weak var setView: UIImageView!
     @IBOutlet weak var reSend: RoundButton!
-    @IBOutlet weak var inputCheckNumber: UITextField!
+    @IBOutlet weak var inputCheckNumber: UITextField! {
+        didSet {
+            let PlaceholderText = NSAttributedString(string: "인증번호 입력",
+                attributes: [NSAttributedString.Key.foregroundColor: BLUE!])
+            inputCheckNumber.attributedPlaceholder = PlaceholderText
+        }
+    }
     @IBOutlet weak var send: RoundButton!
     
     override func viewDidLoad() {
@@ -46,7 +60,7 @@ class PhoneCheckViewController: UIViewController {
             }
             //인증번호 미 입력시
             else {
-                return print("인증번호를 입력하지 않았습니다.")
+                alertNoInput()
             }
         }
     }
@@ -87,6 +101,7 @@ extension PhoneCheckViewController {
             self.inputCheckNumber.alpha = 0
             self.reSend.alpha = 0
         })
+        inputCheckNumber.text = ""
     }
     
     func changePhoneNumber(Input: String) -> String {
@@ -110,8 +125,28 @@ extension PhoneCheckViewController {
     }
     
     func checkPhoneNumber(phoneNumber: String) {
-        Login.ifSucceseSendingMessage(phoneNumber: phoneNumber) {
-            self.showAnimation()
+        Login.ifSucceseSendingMessage(phoneNumber: phoneNumber) { (isErrorExite) in
+            if isErrorExite {
+                self.alertWrongNumber()
+            } else {
+                self.showAnimation()
+            }
         }
+    }
+    
+    func alertNoInput() {
+        print("No Input")
+        let alert = UIAlertController(title:"인증번호 오류",message: "수신된 6자리 인증번호를 입력해주세요",preferredStyle: UIAlertController.Style.alert)
+        let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
+        alert.addAction(ok)
+        present(alert,animated: true,completion: nil)
+    }
+    
+    func alertWrongNumber() {
+        print("Wrong Number")
+        let alert = UIAlertController(title:"핸드폰번호 오류",message: "11자리 핸드폰 번호를 입력해주세요",preferredStyle: UIAlertController.Style.alert)
+        let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
+        alert.addAction(ok)
+        present(alert,animated: true,completion: nil)
     }
 }

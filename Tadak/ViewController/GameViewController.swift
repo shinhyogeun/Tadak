@@ -22,7 +22,7 @@ class GameViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var upperView: UIView!
 
     let LABEL = UIColor(named: "ColorLabel")
-    let BLUE = UIColor(named: "blue")
+    let BLUE = UIColor(named: "blue_dark")
     let RED = UIColor(named: "red")
     
     var isThisChangeOccuredFirstTime : Bool = true

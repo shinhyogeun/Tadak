@@ -16,6 +16,7 @@
 		8756E54E25B3FBF000118783 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756E54D25B3FBF000118783 /* Calculate.swift */; };
 		8756E56825B3FC5400118783 /* CustomIntensityVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756E56725B3FC5400118783 /* CustomIntensityVisualEffectView.swift */; };
 		8760D92725B33B0500F3481C /* GameText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8760D92625B33B0500F3481C /* GameText.swift */; };
+		87CB96D825B576E4008D2652 /* ADMINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CB96D725B576E4008D2652 /* ADMINViewController.swift */; };
 		87E1295D25B31C76001332F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1295C25B31C76001332F0 /* User.swift */; };
 		87E1296125B321C4001332F0 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E1296025B321C4001332F0 /* Logout.swift */; };
 		87FFA34425B44A6900719F26 /* RecodeCheckor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FFA34325B44A6900719F26 /* RecodeCheckor.swift */; };
@@ -56,6 +57,7 @@
 		8756E54D25B3FBF000118783 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 		8756E56725B3FC5400118783 /* CustomIntensityVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIntensityVisualEffectView.swift; sourceTree = "<group>"; };
 		8760D92625B33B0500F3481C /* GameText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameText.swift; sourceTree = "<group>"; };
+		87CB96D725B576E4008D2652 /* ADMINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMINViewController.swift; sourceTree = "<group>"; };
 		87E1295C25B31C76001332F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		87E1296025B321C4001332F0 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		87FFA34325B44A6900719F26 /* RecodeCheckor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecodeCheckor.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				93EB121A25B1F0CD00C49374 /* StartViewController.swift */,
 				8730366925B3D95800E62600 /* gameTableViewCell.swift */,
 				8730366A25B3D95800E62600 /* gameTableViewCell.xib */,
+				87CB96D725B576E4008D2652 /* ADMINViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				938C81AA25B1D18F00F69EDD /* AppDelegate.swift in Sources */,
 				93EB122A25B1F0CE00C49374 /* PhoneCheckViewController.swift in Sources */,
 				87E1295D25B31C76001332F0 /* User.swift in Sources */,
+				87CB96D825B576E4008D2652 /* ADMINViewController.swift in Sources */,
 				8730366F25B3DBE100E62600 /* GameList.swift in Sources */,
 				93EB122B25B1F0CE00C49374 /* ScoreViewController.swift in Sources */,
 				8760D92725B33B0500F3481C /* GameText.swift in Sources */,

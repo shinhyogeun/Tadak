@@ -1574,16 +1574,6 @@
                                                     <constraint firstAttribute="height" constant="300" id="8G0-sl-Vzy"/>
                                                     <constraint firstAttribute="width" constant="320" id="NHl-yT-Ol4"/>
                                                 </constraints>
-                                                <mutableString key="text">[
-                "왜들 그리 다운돼있어?",
-                "뭐가 문제야 say something",
-                "분위기가 겁나나 싸해",
-                "요새는 이런 게 유행인가",
-                "왜들 그리 재미없어?",
-                "아 그건 나도 마찬가지",
-                "Tell me what I got to do",
-                "급한 대로 블루투스 켜"
-            ],</mutableString>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1778,6 +1768,7 @@
                         <outlet property="inputTitle" destination="ANG-Hf-LDm" id="tQP-su-swd"/>
                         <outlet property="showCategory" destination="i5Z-Bo-kjF" id="hef-ut-PQT"/>
                         <outlet property="showGameText" destination="kwk-Rk-0CJ" id="D5t-Yh-AKh"/>
+                        <outlet property="uploadButton" destination="h58-Zq-HZL" id="3ir-c3-kQJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aZ-qe-xBK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

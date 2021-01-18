@@ -22,7 +22,7 @@ class NicknameViewController: UIViewController {
             Login.ifInputNickNameUnique(nick: inputNickName) { (isErrorExite) in
                 if isErrorExite {
                     //경고창으로 같은 닉네임 보여주기
-                    print("same!!!!!!!!!!!!!!!!")
+                    self.showAlert()
                 } else {
                     self.goMainView()
                 }
@@ -40,5 +40,13 @@ extension NicknameViewController {
         vcName?.modalPresentationStyle = .fullScreen
         vcName?.modalTransitionStyle = .crossDissolve
         self.present(vcName!, animated: true, completion: nil)
+    }
+    
+    func showAlert() {
+        print("same NickName")
+        let alert = UIAlertController(title:"다른 닉네임이 필요합니다",message: "10자리 내로 다른 닉네임을 입력해 주세요",preferredStyle: UIAlertController.Style.alert)
+        let ok = UIAlertAction(title: "확인", style: .default, handler: nil)
+        alert.addAction(ok)
+        present(alert,animated: true,completion: nil)
     }
 }

@@ -71,8 +71,8 @@
                                     <constraint firstAttribute="bottom" secondItem="768-l6-qxT" secondAttribute="bottom" constant="4" id="xma-Ss-WfI"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FDEE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7g-Q1-Squ">
-                                <rect key="frame" x="157.66666666666666" y="341" width="75" height="33.333333333333314"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7g-Q1-Squ">
+                                <rect key="frame" x="195" y="341" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundEB" family="NanumSquareRound" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -180,6 +180,9 @@
                             <constraint firstItem="fcd-xV-RVD" firstAttribute="leading" secondItem="02F-DB-mIg" secondAttribute="leading" constant="-20" id="xPV-p6-qad"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="showName" destination="m7g-Q1-Squ" id="WMy-DR-IcV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qy6-cs-Jah" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1238,9 +1241,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DT3-Wl-ERh">
-                                <rect key="frame" x="123.33333333333333" y="173" width="143.66666666666669" height="37.666666666666657"/>
+                                <rect key="frame" x="70" y="173" width="250" height="37.666666666666657"/>
                                 <string key="text">게임에서 사용하실
-닉네임을 적어주세요</string>
+10자리 이내의 닉네임을 적어주세요</string>
                                 <fontDescription key="fontDescription" name="NanumSquareRoundR" family="NanumSquareRound" pointSize="17"/>
                                 <color key="textColor" name="blue"/>
                                 <nil key="highlightedColor"/>

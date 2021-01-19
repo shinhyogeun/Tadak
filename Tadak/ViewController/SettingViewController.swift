@@ -84,7 +84,7 @@ extension SettingViewController {
         let ok = UIAlertAction(title: "확인", style: .destructive, handler: {
             action in
             //일단은 로그아웃 기능과 동일
-            Logout.tryLogout()
+            Logout.deleteUser(nickName: self.showName.text!)
             self.goStartView()
         })
         alert.addAction(cancle)
@@ -135,6 +135,10 @@ extension SettingViewController {
                 self.showName.text = newName
             }
         }
+        
+    }
+    
+    func removeUser() {
         
     }
 }

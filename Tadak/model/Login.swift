@@ -52,9 +52,11 @@ class Login {
 
             self.ref.updateChildValues(childUpdate) { (error , databaseRef) in
                 if let _ = error {
+                    print("-->LOGIN ERROR : \(String(describing: error))")
                     isNewUser = !isNewUser
                 }
                 DispatchQueue.main.async {
+                    print("test")
                     completion(isNewUser)
                 }
             }

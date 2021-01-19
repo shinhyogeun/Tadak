@@ -20,7 +20,7 @@ class SettingViewController: UIViewController {
     }
 
     @IBAction func changeNickName(_ sender: RoundButton) {
-        changeNickName()
+        changeNickName(status: showName.text!)
     }
     @IBAction func logout(_ sender: RoundButton) {
         logout()
@@ -92,13 +92,18 @@ extension SettingViewController {
         present(alert,animated: true,completion: nil)
     }
     
-    func changeNickName() {
+    func changeNickName(status: String) {
         print("changeNickName")
-        let alert = UIAlertController(title: showName.text, message: "10자리 내의 새로운 닉네임을 입력해주세요", preferredStyle: .alert)
+        let alert = UIAlertController(title: status, message: "10자리 내의 새로운 닉네임을 입력해주세요", preferredStyle: .alert)
         let cancle = UIAlertAction(title: "취소", style: .default, handler: nil)
         let ok = UIAlertAction(title: "확인", style: .destructive, handler: {
             action in
-            print(alert.textFields?[0].text ?? "")
+            let newName: String = alert.textFields?[0].text ?? ""
+            print(newName)
+            
+            DispatchQueue.main.async {
+                self.updateNickName(beforeName: self.showName.text!, newName: newName)
+            }
         })
         alert.addTextField { (inputNewNickName) in
             inputNewNickName.placeholder = "새로운 닉네임 입력"
@@ -108,5 +113,28 @@ extension SettingViewController {
         alert.addAction(cancle)
         alert.addAction(ok)
         present(alert,animated: true,completion: nil)
+    }
+    
+    func updateNickName(beforeName: String, newName: String) {
+        let data2 = ["nickname": newName]
+        ref.child("users").child(Auth.auth().currentUser!.uid).child("nickname").updateChildValues(data2) {
+            (error, dataSnapshot) in
+            if let _ = error {
+                print("sameNickName")
+                self.changeNickName(status: "다른 닉네임이 필요합니다")
+            } else {
+                print("chante success")
+                
+                self.ref.child("nickname").child(beforeName).removeValue()
+                print("remove success")
+                
+                let data = [newName: ["nickName": newName]]
+                self.ref.child("nickname").updateChildValues(data)
+                print("add success")
+                
+                self.showName.text = newName
+            }
+        }
+        
     }
 }

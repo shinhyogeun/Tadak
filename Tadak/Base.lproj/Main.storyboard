@@ -99,6 +99,7 @@
                                         <connections>
                                             <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="3Um-ll-ecv"/>
                                             <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="hvV-1j-zD4"/>
+                                            <action selector="changeNickName:" destination="jZi-rE-275" eventType="touchUpInside" id="0vU-w2-dFu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67D-qW-Fac" customClass="RoundButton" customModule="Tadak" customModuleProvider="target">
@@ -142,6 +143,7 @@
                                         <connections>
                                             <action selector="Button_Start:" destination="ec9-0X-BL7" eventType="touchUpInside" id="7wD-su-ceb"/>
                                             <action selector="Button_check:" destination="gAH-lD-KEU" eventType="touchUpInside" id="y84-ks-EkS"/>
+                                            <action selector="deleteUser:" destination="jZi-rE-275" eventType="touchUpInside" id="iwh-wg-epc"/>
                                         </connections>
                                     </button>
                                 </subviews>

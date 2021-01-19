@@ -19,6 +19,7 @@ class ADMINViewController: UIViewController {
     @IBOutlet weak var showGameText: UITextView!
     @IBOutlet weak var showCategory: UILabel!
     @IBOutlet weak var uploadButton: RoundButton!
+    @IBOutlet weak var inputIndex: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,7 +78,10 @@ extension ADMINViewController {
         DispatchQueue.main.async {
             self.ref.child("gametitle").child(self.category).observeSingleEvent(of: .value) { (snapshot) in
                 
-                let index = Int(snapshot.childrenCount)
+                var index = Int(snapshot.childrenCount)
+                if self.inputIndex.text != "" {
+                    index = Int(self.inputIndex.text!)!
+                }
                 let title: String = self.inputTitle.text!
                 let data = [String(index): title]
                 
@@ -123,5 +127,6 @@ extension ADMINViewController {
         inputGameText.text = ""
         showGameText.text = ""
         showCategory.text = "카테고리 선택"
+        inputIndex.text = ""
     }
 }

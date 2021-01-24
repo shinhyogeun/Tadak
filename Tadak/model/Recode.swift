@@ -21,7 +21,7 @@ class Recode {
         .child("recode")
         .child(GameList.name)
     
-    static func updatePersonalRecode(recodeMadeNow : Double) -> Void {
+    static func updatePersonalRecode(recodeMadeNow : Double, completion : @escaping (_ rankingArray:Any) -> Void) -> Void {
         let recodeTurnintoString = String(format: "%.2f", recodeMadeNow)
         
         ref
@@ -38,16 +38,22 @@ class Recode {
             }
             
             recodeArr.append(recodeTurnintoString)
+            var rankingArray: Any = []
             
             if recodeArr.count == 1 {
+                rankingArray = recodeArr
                 ref.updateChildValues([GameContents.name:recodeArr])
             } else if recodeArr.count <= 30 {
                 let sortedScoreArr = recodeArr.map{Double($0)!}.sorted()
+                rankingArray = sortedScoreArr
                 ref.updateChildValues([GameContents.name:sortedScoreArr.map{String($0)}])
             } else {
                 let sortedScoreArr = recodeArr.map{Double($0)!}.sorted()[0...30]
+                rankingArray = sortedScoreArr
                 ref.updateChildValues([GameContents.name:sortedScoreArr.map{String($0)}])
             }
+            
+            completion(rankingArray)
         }
     }
 }
